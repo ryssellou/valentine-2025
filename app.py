@@ -105,7 +105,7 @@ def show_final_message():
     
     st.markdown("<h3 class='valentine-text'>You’ve unlocked the greatest treasure… My heart. ❤️</h3>", unsafe_allow_html=True)
     
-    st.markdown("<h3 class='valentine-text'>I know you've asked me to be your valentine, and my answer has always been yes, but I have been planning on making something like this. So, here I am, continuing with it. Ms. Ardiente, Will you be my Valentine?</h3>", unsafe_allow_html=True)
+    st.markdown("<h5 class='valentine-text'>I know you've asked me to be your valentine, and my answer has always been yes, but I have been planning on making something like this. So, here I am, continuing with it. Ms. Ardiente, Will you be my Valentine?</h5>", unsafe_allow_html=True)
 
     
     col1, col2 = st.columns(2)
