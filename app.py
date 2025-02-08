@@ -90,9 +90,9 @@ def show_quiz():
                     "All of the Above (because I mean it every time)"])
 
         q6 = st.radio("If I were a superhero, what would be my ultimate power?", 
-                    ["Flying to see you faster (because looooong-distance is the villain (Parehas taga Dasma))",  
+                    ["Flying to see you faster (because long-distance is the villain (Parehas taga Dasma))",  
                     "Teleportation to be with you instantly (no more waiting!)", 
-                    "Mind reading to always know what you want for meryenda (the ultimate life hack)"
+                    "Mind reading to always know what you want for meryenda (the ultimate life hack)",
                     "All of the above (hehe)"])
 
         submit = st.form_submit_button("Submit Answers")
