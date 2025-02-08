@@ -14,7 +14,6 @@ def main():
         show_quiz()
     elif st.session_state.page == "final":
         show_final_message()
-    
 
 def add_custom_css():
     st.markdown(
@@ -55,7 +54,7 @@ def show_welcome_page():
     
     if st.button("Ofcourse!💘"):
         st.session_state.page = "quiz"
-        st.experimental_rerun()
+        st.rerun()  # Replaced experimental_rerun() with st.rerun()
 
 def show_quiz():
     st.title("💞 The Love Quiz 💞")
@@ -99,7 +98,7 @@ def show_quiz():
                 
         if submit:
             st.session_state.page = "final"
-            st.experimental_rerun()
+            st.rerun()  # Replaced experimental_rerun() with st.rerun()
 
 def show_final_message():
     st.title("🎉 You’ve Completed the Quest! 🎉")
@@ -117,7 +116,6 @@ def show_final_message():
         if st.button("Absolutely YES! 💞"):
             st.balloons()
             st.success("I knew it! I love you! 😘")
-    
 
 if __name__ == "__main__":
     main()
